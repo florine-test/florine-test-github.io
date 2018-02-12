@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Le bistro français</title>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>UI components sprint</title>
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Raleway+Dots|Raleway:400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="navbar-wagon">
+
+          <!-- Logo -->
+  <a href="/" class="navbar-logo">
+    <img src="images/mustachelogo.png" alt="logo">
+  </a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Accueil</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Carte & Menus</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Notre chef</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Infos pratiques</a>
+  </div>
+
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Cartes & Menus</a></li>
+        <li><a href="#">Notre chef</a></li>
+        <li><a href="#">Infos pratiques</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Home container-->
+    <div class="homecontainer">
+        	<div class="banner" style="background-image: url(images/cuisine.jpeg)";>
+        		<div class="banner-content">
+        			<h1>Le bistro français</h1>
+        			<h2>Cuisine traditionnelle du marché</h2>
+              <img src="images/mustachelogowhite.png" alt="logo">
+        		</div>
+        	</div>
+        <!-- Formulaire de réservation-->  
+       <div class="formcontainer">
+        <form class="form">
+          <h2 style="text-align: center; padding-top: 10px;">RÉSERVATION</h2>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Nom</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Dupont">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Prénom</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Jean">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Téléphone</label>
+            <input ype="email" class="form-control" id="exampleInputEmail1" placeholder="0659886710">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Date</label>
+            <input ype="email" class="form-control" id="exampleInputEmail1" placeholder="10/02/2018">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Heure</label>
+            <select class="form-control">
+              <option>12h</option>
+              <option>13h</option>
+              <option>19h30</option>
+              <option>20h30</option>
+              <option>21h</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-default" style="margin-left: 30%; margin-top: 5px; margin-bottom: 10px">Réserver</button>
+        </form>
+      </div>  
+  </div>   
+		
+<!-- Section avis--> 
+	<div class="container">
+    <div class="row">
+		<div class="col-xs-12 col-sm-3 col-md-3">
+				<div class="avis">
+            		<img src="images/portrait-alice.jpeg" alt="portrait" class="avatar card-user">
+            		<span class="avis-title">La tradition...</span>
+            			<div class="avis-description">
+              				<p>La tradition de la cuisine française se retrouve dans chaque plat et à un prix abordable - <span style="font-style: italic;">Alice</span></p>
+            			</div>
+          			</div>
+          	</div>		
+			<div class="col-xs-12 col-sm-3 col-md-3">	
+				<div class="avis">
+            		<img src="images/portrait-jean.jpeg" alt="portrait" class="avatar card-user">
+            		<span class="avis-title">Une cuisine saine...</span>
+            			<div class="avis-description">
+              				<p>Une cuisine saine et de saison, qui permet de redécouvrir la gastronomie de nos régions - <span style="font-style: italic;"> Jean</span> </p>
+            			</div>
+          			</div>
+			</div>
+			<div class="col-xs-12 col-sm-3 col-md-3">
+				<div class="avis">
+            		<img src="images/portrait-imane.jpeg" alt="portrait" class="avatar card-user">
+            		<span class="avis-title">Une belle carte...</span>
+            			<div class="avis-description">
+              				<p>Une belle carte des vins faites par des connaisseurs pour accompagner à merveille votre repas - <span style="font-style: italic;">Imane</span> </p>
+            			</div>
+          			</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+	</div>		
+
+<!-- Footer--> 
+	<div id=footer>
+		<p style="margin-left: 5%; font-style: italic;">Pour plus de découvertes gourmets, suivez-nous !
+		<a href="https://instagram.com" target="_blank"> <i class="fab fa-instagram"> </i> </a>
+    <p style="letter-spacing:3px; color: grey;" >2 place de la République - 75008 PARIS - 0130436789</p>
+		</p>
+	</div>	
+
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+@import url("nav.css");
+@import url("homecontainer.css");
+@import url("aviscartes.css");
+@import url("footer.css");
+
+
+h1 {
+
+	font-family: 'Dancing Script', cursive;	
+}
+
+h2 {
+	font-family: 'Raleway Dots', cursive;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	font-family: 'Raleway', sans-serif;
+}

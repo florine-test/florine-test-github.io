@@ -1,0 +1,31 @@
+.avis {
+  position: relative;
+  height: 180px;
+  color: black;
+   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+   margin-top: 20px;
+}
+
+.card-user {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+.avis-title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.avis-description {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.avatar {
+  border-radius: 10px 100px / 120px;
+  width: 50px;
+}
